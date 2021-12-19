@@ -7,7 +7,7 @@ Iam a beginner, My code may be junky...!
 # Installation
 ```bash
 $ git clone https://github.com/Humanpredator/Discord-Webhooks
-$ cd Discord-Webhook
+$ cd Discord-Webhooks
 ```
 ## CONFIG VARS
 Fill the following in config.env.\
