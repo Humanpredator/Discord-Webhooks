@@ -6,7 +6,7 @@ pcusage.py ---> Discord webhook that sends Notification About Your PC Usage (cpu
 Iam a beginner, My code may be junky...!   
 # Installation
 ```bash
-$ git clone https://github.com/Humanpredator/Discord-Webhook
+$ git clone https://github.com/Humanpredator/Discord-Webhooks
 $ cd Discord-Webhook
 ```
 ## CONFIG VARS
