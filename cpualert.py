@@ -1,7 +1,6 @@
 #requirements Module
 import os
 from dotenv import load_dotenv
-from decouple import config
 from pathlib import Path
 import psutil
 import sched, time

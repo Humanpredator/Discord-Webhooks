@@ -20,14 +20,14 @@ Fill the following in config.env.\
 ```bash
 $ pip install -r requirements-cli.txt
 ```
---> Require Python 3.7
+--> Require Python 3.7 or above
 If requirements-cli.txt didn't Work just try to install all requirement module individually...!
 ## RUN
 ```
-$ python cpualert.py
+$ python3 cpualert.py
 ```
 ```
-$ python pcusage.py
+$ python3 pcusage.py
 ```
 
 ##### Or --> Simply Click Run if your'e using VS Code...!

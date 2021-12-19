@@ -1,7 +1,6 @@
 discord==1.7.3
 discord-webhook==0.14.0
 python-dotenv==0.19.2
-decouple==0.0.7
 pathlib2==2.3.6
 pathlib==1.0.1
 psutil
