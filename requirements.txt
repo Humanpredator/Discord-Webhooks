@@ -1,0 +1,8 @@
+discord
+discord-webhook
+dotenv
+decouple
+pathlib
+psutil
+sched
+time
