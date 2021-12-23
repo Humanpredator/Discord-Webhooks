@@ -1,4 +1,4 @@
-#requirements Module
+#requirements Modules
 import os
 from dotenv import load_dotenv
 from pathlib import Path
