@@ -60,7 +60,7 @@ def wh(ds):
     embed.add_embed_field(name='Total RAM:', inline= True, value= str("{1}".format(mtotal,humanbytes(mtotal))))
     embed.add_embed_field(name='Used RAM:', inline= True, value= str("{1}".format(mused,humanbytes(mused))))
     embed.add_embed_field(name='Free RAM:', inline= True, value= str("{1}".format(mfree,humanbytes(mfree))))
-    embed.add_embed_field(name='RAM Percentage:', inline= True, value= str("{1}".format(mper,humanbytes(mper))))
+    embed.add_embed_field(name='RAM Percentage:', inline= True, value= str(mper))
     #webhook disk
     embed.add_embed_field(name='TotalDisk:', inline= True, value= str("{1}".format(dtotal,humanbytes(dtotal))))
     embed.add_embed_field(name='UsedDisk:', inline= True, value= str("{1}".format(dused,humanbytes(dused))))
