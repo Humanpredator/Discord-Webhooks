@@ -18,7 +18,7 @@ def wh(ds):
     dfree = (psutil.disk_usage('/')[2])
     dper = (psutil.disk_usage('/')[3])
     #Cpu Usage
-    cpu = (psutil.cpu_percent(4))
+    cpufrq = (psutil.cpu_freq()[0],"Hz")
     cpuper = (psutil.cpu_percent(1))
     corecoun = (psutil.cpu_count())
     #memory Usage
@@ -53,7 +53,7 @@ def wh(ds):
     embed.set_author(name='Humanpredator', url='https://github.com/Humanpredator', icon_url='https://www.linkpicture.com/q/317712_code-repository_github_repository_resource_icon.png')
     embed.set_timestamp()
     #webhook Cpu
-    embed.add_embed_field(name='CPU Usage:', inline =  True, value= str(cpu))
+    embed.add_embed_field(name='CPU Freq:', inline =  True, value= str(cpufrq))
     embed.add_embed_field(name='No.Of Core:', inline= True, value= str(corecoun))
     embed.add_embed_field(name='CPU Percentage:', inline= True, value= str(cpuper))
     #webhook memory
